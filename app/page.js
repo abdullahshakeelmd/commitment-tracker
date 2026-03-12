@@ -258,7 +258,6 @@ function Home({lang,setPage,setDept}){
             <h1 style={{fontSize:"clamp(3.2rem,6vw,5.6rem)",fontWeight:900,lineHeight:1.06,letterSpacing:"-0.03em",color:T.white,marginBottom:"1.6rem",animation:"fadeUp 0.8s ease 0.1s both"}}>
               {lang==="te"
                 ?<><span style={{background:"linear-gradient(135deg,#f97316,#f59e0b)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>ప్రతి హామీ</span><br/><span style={{color:"#e5e7eb"}}>ట్రాక్ చేయబడింది</span></>
-                ?<><span style={{background:"linear-gradient(135deg,#f97316,#f59e0b)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>Every promise</span><br/><span style={{color:"#e5e7eb"}}>tracked openly.</span></>
                 :<><span style={{background:"linear-gradient(135deg,#f97316,#f59e0b)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>Every promise</span><br/><span style={{color:"#e5e7eb"}}>tracked openly.</span></>
               }
             </h1>
