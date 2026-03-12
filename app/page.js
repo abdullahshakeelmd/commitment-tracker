@@ -792,7 +792,7 @@ export default function App(){
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap');
         *{margin:0;padding:0;box-sizing:border-box;}
-        html{scroll-behavior:smooth;}
+        html{scroll-behavior:smooth; font-size: 90%;}
         body{background:#f7f9ff;color:#0d1117;font-family:'Plus Jakarta Sans',sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
         ::-webkit-scrollbar{width:7px;}
         ::-webkit-scrollbar-track{background:#f7f9ff;}
